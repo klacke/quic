@@ -16,6 +16,9 @@ lux:
 
 server:
 	erl -sname s -pa ../../_build/default/lib/quicer/ebin -s qt s
+ssl_server:
+	erl -sname s -pa ../../_build/default/lib/quicer/ebin -s qt_ssl s
+
 client:
 	erl -sname c -pa ../../_build/default/lib/quicer/ebin
 
